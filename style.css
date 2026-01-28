@@ -288,7 +288,8 @@ ul {
 }
 
 @media (max-width: 920px) {
-  .nav {
+  .nav,
+  .header__contacts {
     display: none;
   }
   .burger {
