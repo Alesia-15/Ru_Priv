@@ -1,0 +1,439 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Название компании — международные поставки</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container header__row">
+        <a class="brand" href="#">
+          <div class="brand__logo" aria-hidden="true">LOGO</div>
+          <div class="brand__text">
+            <div class="brand__name">Название компании</div>
+            <div class="brand__tag">Международные решения</div>
+          </div>
+        </a>
+
+        <nav class="nav" aria-label="Главное меню">
+          <a href="#services">Услуги</a>
+          <a href="#cases">Кейсы</a>
+          <a href="#contacts">Контакты</a>
+        </nav>
+
+        <div class="header__contacts">
+          <div class="phones">
+            <a href="tel:+123456789">+1 (234) 567-89</a>
+          </div>
+        </div>
+
+        <button class="burger" aria-label="Открыть меню">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <h1 class="hero__title">Название компании</h1>
+
+          <p class="hero__lead">
+            Выступим Вашим партнером на территории Западных стран: ЕС, США и
+            организуем поставку товаров, услуг EXPORT, IMPORT, TRANSIT
+          </p>
+
+          <p class="hero__note">
+            Оказываем услуги для Физических и Юридических лиц независимо от
+            объёма и стомисти товара
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#calc">Рассчитать поставку</a>
+            <a class="btn btn--ghost" href="#services">Наши направления</a>
+          </div>
+
+          <div class="stats">
+            <div class="stat">
+              <div class="stat__value">10 лет</div>
+              <div class="stat__label">
+                оказываем помощь в поставках товаров из Западных стран
+              </div>
+            </div>
+            <div class="stat">
+              <div class="stat__value">7 стран</div>
+              <div class="stat__label">
+                представительство в Западных странах
+              </div>
+            </div>
+            <div class="stat">
+              <div class="stat__value">360 млн €</div>
+              <div class="stat__label">произведенных закупок товаров</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__visual" aria-label="Иллюстрация">
+          <div class="hero__circle"></div>
+          <div class="hero__card">
+            <div class="hero__badge">EXPORT / IMPORT / TRANSIT</div>
+            <div class="hero__img" aria-hidden="true">
+              <div class="img-placeholder">
+                <img src="/partners.png" alt="Partners" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- плавающая кнопка "Получить расчёт" -->
+      <a class="floating-cta" href="#calc" aria-label="Получить расчёт">
+        <span class="floating-cta__icon">✉</span>
+        <span class="floating-cta__text">Получить расчёт</span>
+      </a>
+    </section>
+
+    <!-- Services -->
+    <section class="section" id="services">
+      <div class="container">
+        <header class="section__head">
+          <h2 class="section__title">Услуги</h2>
+          <p class="section__subtitle">Наши ключевые направления партнёрства</p>
+        </header>
+
+        <div class="cards cards--4">
+          <article class="card">
+            <h3 class="card__title">Выкуп товаров из Западных стран</h3>
+            <p class="card__text">
+              Выступаем торговым партнером на территории Западных стран по
+              поиску, выкупу и организации поставки в адрес нашего партнера в
+              странах СНГ
+            </p>
+          </article>
+
+          <article class="card">
+            <h3 class="card__title">Экспорт товаров в Западные страны</h3>
+            <p class="card__text">
+              Организовываем поиск, анализ спроса и товарных ниш на территрии
+              Западных странах для дальнейших поставок товаров СНГ
+            </p>
+          </article>
+
+          <article class="card">
+            <h3 class="card__title">Транзит через Западные страны в СНГ</h3>
+            <p class="card__text">
+              Организовываем промежуточные транзитные оформления товаров через
+              наши западные хабы в адрес стран СНГ
+            </p>
+          </article>
+
+          <article class="card">
+            <h3 class="card__title">
+              Персональные поставки для Физических лиц
+            </h3>
+            <p class="card__text">
+              Выполние частных заказов в адрес физических лиц
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Who is it for -->
+    <section class="section" id="audience">
+      <div class="container">
+        <header class="section__head section__head--dark">
+          <h2 class="section__title">Кому подходит наше партнёрство</h2>
+        </header>
+
+        <div class="audience">
+          <div class="audience__item">
+            <div class="audience__num">01</div>
+            <p>
+              Импортеры, которые больше не могут работать с поставщиком напрямую
+              из‑за санкций или банковских ограничений
+            </p>
+          </div>
+
+          <div class="audience__item">
+            <div class="audience__num">02</div>
+            <p>
+              Компании, которые нашли выгодный товар или бренд в ЕС/США, но не
+              понимают, как безопасно организовать поставку
+            </p>
+          </div>
+
+          <div class="audience__item">
+            <div class="audience__num">03</div>
+            <p>
+              Дистрибьюторы и оптовые компании, которым важны стабильные графики
+              поставок и локальные документы на товар
+            </p>
+          </div>
+
+          <div class="audience__item">
+            <div class="audience__num">04</div>
+            <p>
+              Экспортеры, которые заинтересованы в востановлении экспортных
+              поставок в Западные страны
+            </p>
+          </div>
+
+          <div class="audience__item">
+            <div class="audience__num">05</div>
+            <p>Частные клиенты, желающие получать товары Западных брендов</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why choose us -->
+    <section class="section" id="benefits">
+      <div class="container">
+        <header class="section__head">
+          <h2 class="section__title">Почему нас выбирают</h2>
+        </header>
+
+        <div class="benefits">
+          <article class="benefit">
+            <div class="benefit__icon" aria-hidden="true">🌍</div>
+            <div>
+              <h3 class="benefit__title">Сеть Западных партнеров</h3>
+              <p class="benefit__text">
+                Позволяет решить поставленную задачу по выкупу и поставкам
+                товаров в кратчайшие сроки с юридической поддержкой и проверкой
+                полной сделки
+              </p>
+            </div>
+          </article>
+
+          <article class="benefit">
+            <div class="benefit__icon" aria-hidden="true">📦</div>
+            <div>
+              <h3 class="benefit__title">Опыт в посреднической сфере</h3>
+              <p class="benefit__text">
+                Экспертные знания и понимание существующих запретов и огрничений
+                со стороны Западных стран позволяет выстраивать изначально
+                подлинные сделки по поставке товаров
+              </p>
+            </div>
+          </article>
+
+          <article class="benefit">
+            <div class="benefit__icon" aria-hidden="true">🤝</div>
+            <div>
+              <h3 class="benefit__title">Клиентский сервис</h3>
+              <p class="benefit__text">
+                Наличие и закрепление персонального менеджера за клиентом — даёт
+                возможность поддержки на каждом этапе поставки товаров
+              </p>
+            </div>
+          </article>
+
+          <article class="benefit">
+            <div class="benefit__icon" aria-hidden="true">🧭</div>
+            <div>
+              <h3 class="benefit__title">Мультимодальная логистика</h3>
+              <p class="benefit__text">
+                Гибкие схемы доставки, с наличием разных маршрутов и персонально
+                подобранных вариантов — позволяют индивидуально прорабатывать
+                вариант логистики для наших клиентов
+              </p>
+            </div>
+          </article>
+
+          <article class="benefit">
+            <div class="benefit__icon" aria-hidden="true">🧾</div>
+            <div>
+              <h3 class="benefit__title">Вариативность сотрудничества</h3>
+              <p class="benefit__text">
+                Сотрудничество с Физическими и Юридическими лицами позволяет
+                удовлетворить спрос на любое: розничное или оптовое количество
+                товаров для разных категорий клиентов
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Expertise -->
+    <section class="section section--soft" id="expertise">
+      <div class="container">
+        <header class="section__head">
+          <h2 class="section__title">Наша экспертиза — это Ваша возможность</h2>
+          <p class="section__subtitle">
+            Созданная платформа по обработке запросов позволяет обрабатывать все
+            поступающие заказы и предоставляет возможность получить быстрый,
+            прозрачный и безопасный вариант поставки товаров в Ваш адрес
+          </p>
+        </header>
+
+        <div class="expertise">
+          <div class="expertise__media">
+            <div class="img-placeholder img-placeholder--wide">
+              <img src="/expert.png" alt="Expert" />
+            </div>
+          </div>
+
+          <div class="expertise__cards">
+            <article class="panel">
+              <h3 class="panel__title">Наши преимущества</h3>
+              <ul class="list">
+                <li>
+                  Доступ к товарам и брендам, с которыми сложно или невозможно
+                  работать напрямую из‑за санкций и ограничений
+                </li>
+                <li>
+                  Легальный и отработанный механизм поставки через наших
+                  зарубежных и локальных юрлиц
+                </li>
+                <li>
+                  Снижение рисков блокировки платежей и задержек на таможне
+                </li>
+                <li>
+                  Прозрачный расчет: вы заранее видите стоимость товара,
+                  логистики, таможни и размер нашей комиссии
+                </li>
+                <li>
+                  Экономия времени вашей команды: мы закрываем все вопросы по
+                  ВЭД, логистике и документам
+                </li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Calculator / Form -->
+    <section class="section section--form" id="calc">
+      <div class="container">
+        <div class="form-wrap">
+          <h2 class="form-wrap__title">Оставить заявку на расчёт</h2>
+          <p class="form-wrap__subtitle">
+            Введите контактный телефон — мы свяжемся с вами в течение 15 минут.
+          </p>
+
+          <form class="form" action="send-telegram.php" method="post">
+            <label class="field">
+              <span class="field__label">Ваше имя</span>
+              <input
+                class="field__input"
+                type="text"
+                name="name"
+                placeholder="Ваше имя"
+              />
+            </label>
+
+            <label class="field">
+              <span class="field__label">Ваш телефон (обязательно)</span>
+              <input
+                class="field__input"
+                type="tel"
+                name="phone"
+                placeholder="+1 (234) 567-89"
+                required
+              />
+            </label>
+
+            <label class="field">
+              <span class="field__label">Комментарий</span>
+              <textarea
+                class="field__input field__input--area"
+                name="comment"
+                placeholder="Коротко опишите задачу"
+              ></textarea>
+            </label>
+
+            <button class="btn btn--primary btn--lg" type="submit">
+              Рассчитать поставку
+            </button>
+
+            <p class="form__policy">
+              *Нажимая кнопку, вы соглашаетесь с обработкой персональных данных
+              и политикой конфиденциальности.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contacts">
+      <div class="container footer__grid">
+        <div class="footer__brand">
+          <div class="brand__logo brand__logo--footer" aria-hidden="true">
+            LOGO
+          </div>
+          <div>
+            <div class="footer__title">Название компании</div>
+            <div class="footer__muted">
+              Международные поставки / выкуп / транзит
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__contacts">
+          <div class="footer__line">
+            <strong>Телефон:</strong>
+            <a href="tel:+123456789">+1 (234) 567-89</a>
+          </div>
+          <div class="footer__line">
+            <strong>Email:</strong>
+            <a href="mailto:hello@example.com">hello@example.com</a>
+          </div>
+          <div class="footer__line">
+            <strong>Адрес:</strong> Город, улица, офис
+          </div>
+
+          <div class="footer__social">
+            <a href="#" aria-label="Telegram">TG</a>
+            <a href="#" aria-label="WhatsApp">WA</a>
+            <a href="#" aria-label="Viber">VB</a>
+            <a href="#" aria-label="Instagram">IG</a>
+          </div>
+        </div>
+
+        <div class="footer__qr">
+          <div class="qr">
+            <div class="qr__box">
+              <img src="/qr.png" alt="QR" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container footer__bottom">
+        <span
+          >© <span id="y"></span> Название компании — Все права защищены</span
+        >
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("y").textContent = new Date().getFullYear();
+
+      // простой мобильный бургер для наброска
+      const burger = document.querySelector(".burger");
+      const nav = document.querySelector(".nav");
+      burger?.addEventListener("click", () => {
+        nav.classList.toggle("nav--open");
+        burger.classList.toggle("burger--open");
+      });
+    </script>
+  </body>
+</html>
