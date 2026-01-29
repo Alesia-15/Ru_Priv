@@ -1,7 +1,7 @@
 <?php
 header('Content-Type: application/json; charset=utf-8');
 
-$BOT_TOKEN = "8525508395:AAHnYtG8LbIAOGQVTuXvWlsuPZv6-KT7ETI";
+$BOT_TOKEN = "";
 $CHAT_ID   = "6401716604";
 
 $name = trim($_POST['name'] ?? '');
@@ -19,7 +19,7 @@ $text = "📦 *Заявка на расчёт*\n"
       . "📞 Телефон: *{$phone}*\n"
       . "💬 Комментарий: " . ($comment !== '' ? $comment : '—');
 
-$url = "https://api.telegram.org/bot8525508395:AAHnYtG8LbIAOGQVTuXvWlsuPZv6-KT7ETI/sendMessage";
+$url = "https://api.telegram.org/bot";
 
 $post = [
   'chat_id' => $CHAT_ID,
